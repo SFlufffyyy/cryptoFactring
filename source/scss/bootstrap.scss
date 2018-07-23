@@ -1,0 +1,197 @@
+/*!
+ * Bootstrap v4.0.0 (https://getbootstrap.com)
+ * Copyright 2011-2018 The Bootstrap Authors
+ * Copyright 2011-2018 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+
+@import "functions";
+@import "variables";
+@import "mixins";
+@import "root";
+@import "reboot";
+@import "type";
+@import "images";
+@import "code";
+@import "grid";
+@import "tables";
+@import "forms";
+@import "buttons";
+@import "transitions";
+@import "dropdown";
+@import "button-group";
+@import "input-group";
+@import "custom-forms";
+@import "nav";
+@import "navbar";
+@import "card";
+@import "breadcrumb";
+@import "pagination";
+@import "badge";
+@import "jumbotron";
+@import "alert";
+@import "progress";
+@import "media";
+@import "list-group";
+@import "close";
+@import "modal";
+@import "tooltip";
+@import "popover";
+@import "carousel";
+@import "utilities";
+@import "print";
+
+
+
+#logo {
+    background-color: #ffffff;
+    float: left;
+    width: 310px;
+    height: 32px;
+}
+
+.wrapper {
+    overflow-x: hidden !important;
+}
+
+.clsOrangeBlock {
+    min-height: 300px;
+    background-color: #fadb7e;
+    background: url(../../assets/images/sloganbackground.jpg) no-repeat center, linear-gradient(#fadb7e,#f7b929);
+    background-position-x: 50px;
+}
+
+.clsFooter {
+    min-height: 200px;
+    background-color: #fadb7e;
+    background: linear-gradient(#fadb7e,#f7b929);
+}
+
+.clsDarkGrayBlock {
+    min-height: 200px;
+    background-color: #747474;
+    background: linear-gradient(#7d7d7d,#595959);
+   // overflow-x: hidden !important;
+}
+
+.clsSloganHeader {
+    margin-top: 1rem;
+}
+
+.clsSloganHeader h1 {
+    font-size: 4rem;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.clsSloganHeader h3 {
+    font-size: 1.5rem;
+    color: #606060;
+    font-style: oblique;
+    font-weight: 900;
+    line-height: 3rem;
+}
+
+.clsSloganHeader .clsCrypto {
+    font-size: 4rem;
+    color: #606060;
+    font-weight: 900;
+    line-height: 0rem;
+    letter-spacing: 0.6rem;
+}
+
+.clsPhone {
+    color: #aaaaaa;
+    font-size: 1.5rem;
+    font-weight: 600;
+    letter-spacing: -0.05rem;
+    white-space: nowrap;
+}
+
+.clsLine {
+    width: 100%;
+    height: 1px;
+    margin: 60px auto 0;
+    border-bottom: 2px solid #aeaeae;
+}
+
+.clsSmCircleIcon {
+    display: inline-block;
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 900;
+    line-height: 2rem;
+    width: 2rem;
+    height: 2rem;
+    text-align: center;
+}
+
+.clsCircleIcon {
+    display: inline-block;
+    color: #ffffff;
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 4rem;
+    width: 4rem;
+    height: 4rem;
+    text-align: center;
+}
+
+.clsBeginFinancing {
+    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+
+@media (min-width: 768px) {
+    .clsBeginFinancing {
+        margin-bottom: -4rem;
+        margin-top: 4rem;
+    }
+
+    .clsSloganHeader {
+        margin-top: 8.5rem;
+    }
+
+    .clsSloganHeader h1 {
+        font-size: 4.5rem;
+        font-weight: 700;
+        color: #ffffff;
+        line-height: 0.80;
+    }
+
+    .clsSloganHeader h3 {
+        font-size: 1.6rem;
+        color: #606060;
+        font-style: oblique;
+        font-weight: 900;
+        line-height: 3rem;
+        white-space: nowrap;
+    }
+}
+
+@media (min-width: 1060px) {
+
+    .clsSloganHeader h1 {
+        font-size: 6rem;
+        font-weight: 700;
+        color: #ffffff;
+        line-height: 0.80;
+    }
+
+    .clsSloganHeader h3 {
+        font-size: 2rem;
+        color: #606060;
+        font-style: oblique;
+        font-weight: 900;
+        line-height: 3rem;
+        white-space: nowrap;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .display-1 {
+        font-size: 3rem;
+    }
+}
